@@ -1,0 +1,20 @@
+ReleaseNotes
+------------
+FileDescription.txt: This file
+
+Sequence data
+-------------
+S_lycopersicum_2.50ch.fa: Multi fasta files with the v2.50 tomato chromosomes (1 to 12 and chr 0)
+SL2.50ch00-12.fa: Fasta files for each chromosome.
+
+Dot plots
+-------------
+DotPlots.pdf: Dot plots comparing chromosomes from build 2.4 to build 2.5
+
+AGP files
+-------------
+S_lycopersicum_chromosomes_from_scaffolds.2.50.agp.tar.gz: Accessioned Golden Path (AGP) files used to construct genome build 2.5
+
+
+
+

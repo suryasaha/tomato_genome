@@ -1,0 +1,54 @@
+ITAG2.4 Tomato Genome Annotation Release
+
+Contents:
+  1. Introduction
+  2. Change log
+  3. Files in this release
+
+== 1. Introduction ==
+
+The ITAG2.4 release of the official Tomato genome annotation (ITAG2.4), 
+is a post-release update to ITAG2.3 covering approximately 84% of the genome,
+with 34,725 gene models. This release includes updates to the gap sizes 
+between scaffolds from FISH experiments.
+
+This release file set was generated on February 23, 2014.
+
+Please note that ITAG2.4 corresponds to build 2.5 of the tomato genome and ITAG2.3
+corresponds to build 2.4. The genome release numbers and ITAG versions are not 
+synchronized.
+
+Please see ftp://ftp.solgenomics.net/tomato_genome/annotation/ITAG2.3_release/ITAG2.3_README.txt
+for detailed description and statistics of ITAG2.3.
+
+== 2. Change log ==
+
+The following gene models were dropped from ITAG2.4 release
+Solyc03g053140.1
+Solyc12g032910.1
+
+Please see ITAG2.4_dropped_features.gff3 for a complete list of features that were dropped in 
+release ITAG 2.4.
+
+== 3. Files in this release ==
+
+ITAG2.4_assembly.gff3
+ITAG2.4_cdna.fasta
+ITAG2.4_cdna_alignments.gff3
+ITAG2.4_cds.fasta
+ITAG2.4_de_novo_gene_finders.gff3
+ITAG2.4_dropped_features.gff3
+ITAG2.4_gene_models.gff3
+ITAG2.4_genomic.fasta
+ITAG2.4_genomic_reagents.gff3
+ITAG2.4_infernal.gff3
+ITAG2.4_other_genomes.gff3
+ITAG2.4_protein_functional.gff3
+ITAG2.4_protein_reference.gff3
+ITAG2.4_proteins.fasta
+ITAG2.4_proteins_full_desc.fasta
+ITAG2.4_repeats.gff3
+ITAG2.4_repeats_aggressive.gff3
+ITAG2.4_sgn_data.gff3
+ITAG2.4_solCAP.gff3
+
