@@ -15,7 +15,7 @@ between scaffolds from FISH experiments.
 This release file set was generated on February 23, 2014.
 
 Please note that ITAG2.4 corresponds to build 2.5 of the tomato genome and ITAG2.3
-corresponds to build 2.4. The genome release numbers and ITAG versions are not 
+corresponds to build 2.4. The genome release numbers and ITAG versions are NOT 
 synchronized.
 
 Please see ftp://ftp.solgenomics.net/tomato_genome/annotation/ITAG2.3_release/ITAG2.3_README.txt
@@ -32,23 +32,136 @@ release ITAG 2.4.
 
 == 3. Files in this release ==
 
-ITAG2.4_assembly.gff3
-ITAG2.4_cdna.fasta
-ITAG2.4_cdna_alignments.gff3
-ITAG2.4_cds.fasta
-ITAG2.4_de_novo_gene_finders.gff3
-ITAG2.4_dropped_features.gff3
-ITAG2.4_gene_models.gff3
-ITAG2.4_genomic.fasta
-ITAG2.4_genomic_reagents.gff3
-ITAG2.4_infernal.gff3
-ITAG2.4_other_genomes.gff3
-ITAG2.4_protein_functional.gff3
-ITAG2.4_protein_reference.gff3
-ITAG2.4_proteins.fasta
-ITAG2.4_proteins_full_desc.fasta
-ITAG2.4_repeats.gff3
-ITAG2.4_repeats_aggressive.gff3
-ITAG2.4_sgn_data.gff3
-ITAG2.4_solCAP.gff3
+* ITAG2.4_assembly.gff3
+  GFF version 3 file containing chromsome features, as well as
+  positions of scaffolds, contigs, and inter-scaffold
+  (i.e. unknown-size) gaps.
 
+  Analyses in this file:
+    SL2.50_assembly
+
+* ITAG2.4_cdna.fasta
+  fasta-format sequence file of cDNA sequences.
+
+* ITAG2.4_cdna_alignments.gff3
+  GFF version 3 files containing alignments of existing EST and cDNA
+  sequences to the genome.
+
+  Analyses in this file: 
+    ITAG_microtom_flcdnas
+    ITAG_transcripts_sol
+    ITAG_transcripts_tomato
+
+* ITAG2.4_cds.fasta
+  fasta-format sequence file of CDS sequences.
+
+* ITAG2.4_de_novo_gene_finders.gff3
+  GFF version 3 file containing predictions from several de novo gene
+finders.  These were integrated into the final gene models by EuGene.
+
+  Analyses in this file:
+    ITAG_augustus
+    ITAG_geneid_tomato
+    ITAG_glimmerhmm_ath
+    ITAG_glimmerhmm_tomato
+    ITAG_trnascanse
+    
+* ITAG2.4_dropped_features.gff3
+  GFF version 3 file listing features from the ITAG2 that could not be
+  remapped from the SL2.40 assembly to the SL2.50 assembly.
+
+* ITAG2.4_gene_models.gff3
+  GFF version 3 file containing gene models in this release.
+
+  Analyses in this file:
+    ITAG_eugene
+    
+* ITAG2.4_genomic.fasta
+  fasta-format sequence file of genomic contig sequences.
+
+* ITAG2.4_genomic_reagents.gff3
+  GFF version 3 file containing alignments to subclones or other
+  intermediate materials used in the genome.
+
+  Analyses in this file:
+    ITAG_tomato_bacs
+    DBolser_Dundee_BES_SSAHA
+
+* ITAG2.4_infernal.gff3
+  GFF version 3 file containing annotated small-RNA regions, produced
+  by Infernal (http://infernal.janelia.org/).
+
+  Analyses in this file:
+    ITAG_infernal
+
+* ITAG2.4_other_genomes.gff3
+  GFF version 3 file containing alignments to other genomes or
+  assemblies other than the one used as reference for this annotation.
+
+  Analyses in this file:
+    ITAG_itag1_ref
+    ITAG_tobacco_contigs
+
+* ITAG2.4_protein_functional.gff3
+  GFF version 3 file containing annotations on protein sequences, such
+  as protein domains.
+
+  Analyses in this file:
+    ITAG_blastp_ath_pep
+    ITAG_blastp_refseq_pep
+    ITAG_blastp_rice_pep
+    ITAG_blastp_swissprot
+    ITAG_blastp_trembl
+    ITAG_interpro
+
+* ITAG2.4_protein_reference.gff3
+  GFF version 3 file containing reference features for each protein
+  sequence.  Useful for loading features on the protein sequences into
+  databases like Chado.
+
+  Analyses in this file:
+    none
+
+* ITAG2.4_proteins.fasta
+  fasta-format sequence file of protein sequences.
+
+* ITAG2.4_proteins_full_desc.fasta
+
+* ITAG2.4_repeats.gff3
+  GFF version 3 file containing repetitive regions, at 'normal'
+  stringency, meaning running it *with* the -nolow option, so that
+  low-complexity and simple repeats are NOT masked.  The repeat set
+  used for masking is available at
+  ftp://ftp.sgn.cornell.edu/genomes/Solanum_lycopersicum/repeats/mipsREdat_8.8_solanaceae_TE.masked.gz.
+     
+  Analyses in this file:
+    ITAG_repeats
+
+* ITAG2.4_repeats_aggressive.gff3
+  GFF version 3 file containing repetitive regions, at 'aggressive'
+  stringency, meaning running it *without* the -nolow option, so that
+  low-complexity and simple repeats ARE masked.  The repeat set used
+  for masking is available at
+  ftp://ftp.sgn.cornell.edu/genomes/Solanum_lycopersicum/repeats/mipsREdat_8.8_eudico_TEs.masked.gz.
+     
+  Analyses in this file:
+    ITAG_repeats
+
+* ITAG2.4_sgn_data.gff3
+  GFF version 3 file containing alignments to sequences related to
+  data on SGN.  Currently contains alignments to SGN unigenes, SGN
+  marker sequences, and SGN locus sequences.
+
+  Analyses in this file:
+    ITAG_sgn_loci
+    ITAG_sgn_markers
+    ITAG_sgn_unigenes
+
+* ITAG2.4_solCAP.gff3
+  GFF version 3 file containing locations of the solCAP markers.
+
+  Analyses in this file:
+    ITAG_sgn_markers
+    
+* ITAG2.4.go.csv
+  Comma separated value (CSV) file of the GO annotations for each ITAG24 gene model
