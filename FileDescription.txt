@@ -1,11 +1,30 @@
-ReleaseNotes
+Release Notes
 ------------
 FileDescription.txt: This file
+README_FIRST_ACCESS_AGREEMENT.txt: User agreement.
+ReleaseNotes.txt: Release history uptill build 2.50.
 
 Sequence data
 -------------
-S_lycopersicum_2.50ch.fa: Multi fasta files with the v2.50 tomato chromosomes (1 to 12 and chr 0)
-SL2.50ch00-12.fa: Fasta files for each chromosome.
+S_lycopersicum_chromosomes.2.50.fa: Multi fasta files with the v2.50 tomato chromosomes (1 to 12 and chr 0) along with the tar gzipped versions (.tar.gz).
+SL2.50ch00-12.fa: Fasta files for each chromosome along with the tar gzipped versions (.tar.gz).
+S_lycopersicum_scaffolds.2.50.fa.gz: Fasta file of scaffolds used to construct genome build 2.5
+
+    NAME          LEN   
+  --------------- ----- 
+* SL2.50ch00      21805821                                                   
+* SL2.50ch01      98543444                                                   
+* SL2.50ch02      55340444                                                   
+* SL2.50ch03      70787664                                                   
+* SL2.50ch04      66470942                                                   
+* SL2.50ch05      65875088                                                   
+* SL2.50ch06      49751636                                                   
+* SL2.50ch07      68045021                                                   
+* SL2.50ch08      65866657                                                   
+* SL2.50ch09      72482091                                                   
+* SL2.50ch10      65527505                                                   
+* SL2.50ch11      56302525                                                   
+* SL2.50ch12      67145203   
 
 Dot plots
 -------------
@@ -14,7 +33,3 @@ DotPlots.pdf: Dot plots comparing chromosomes from build 2.4 to build 2.5
 AGP files
 -------------
 S_lycopersicum_chromosomes_from_scaffolds.2.50.agp.tar.gz: Accessioned Golden Path (AGP) files used to construct genome build 2.5
-
-
-
-
