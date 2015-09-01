@@ -164,4 +164,4 @@ finders.  These were integrated into the final gene models by EuGene.
     ITAG_sgn_markers
     
 * ITAG2.4.go.csv
-  Comma separated value (CSV) file of the GO annotations for each ITAG24 gene model
+  Comma separated value (CSV) file of the GO annotations for each ITAG2.4 gene model. This file was created by parsing the fasta headers from ftp://ftp.solgenomics.net/tomato_genome/annotation/ITAG2.3_release/ITAG2.3_proteins_full_desc.fasta
